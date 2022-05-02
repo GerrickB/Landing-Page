@@ -23,7 +23,8 @@ a {
     background-color: #1F2937;
     display: flex;
     padding: 16px;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 400px
 }
 
 .logo {
