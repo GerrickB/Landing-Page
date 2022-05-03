@@ -71,7 +71,7 @@ ul {
     color: #E5E7EB;
 }
 
-button{
+.top{
     align-self: flex-start;
     background-color: #3882F6;
     color: #F9FAF8;
@@ -132,4 +132,35 @@ button{
     align-self: center;
     font-weight: bold;
     padding-left: 500px;
+}
+
+.fourth {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.modal {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    margin: 60px 0 60px 0;
+}
+
+.modal-left {
+    padding: 30px;
+}
+
+.modal-title {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.modal-subtext{
+    color: #E5E7EB;
+}
+
+.bottom{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 30px;
 }
